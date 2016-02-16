@@ -1,0 +1,53 @@
+{
+  "name": "Pluralsight-Gulp",
+  "version": "0.1.0",
+  "description": "Starter Code for Pluralsight Course JavaScript Build Automation with Gulp.js",
+  "authors": [
+    "John Papa"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/johnpapa/pluralsight-gulp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnpapa/pluralsight-gulp.git"
+  },
+  "scripts": {
+    "init": "npm install",
+    "install": "bower install",
+    "start": "node src/server/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.8.2",
+    "compression": "^1.1.0",
+    "cors": "^2.2.0",
+    "express": "^4.9.3",
+    "morgan": "^1.1.1",
+    "serve-favicon": "^2.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-minify-html": "^1.0.5",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-plumber": "^1.1.0",
+    "gulp-print": "^2.0.1",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-useref": "^3.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "wiredep": "^3.0.0",
+    "yargs": "^3.32.0"
+  }
+}
